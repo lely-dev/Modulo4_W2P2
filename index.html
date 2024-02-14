@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ebook</title>
+    <script src="https://kit.fontawesome.com/29d9bcc801.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,21 +14,21 @@
 
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Offcanvas navbar</a>
+          <a class="navbar-brand" href="#"><img src="asset/open-book_613307.png" alt="logo" id="logo_top"></a>
           <div class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="imput_search">
             <button class="btn btn-outline-success" type="submit" id="btn_search">Search</button>
           </div>
           <button type="button" class="navbar-toggler btn btn-primary position-relative"data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            Inbox
-            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-              99+
+            <i class="fa-solid fa-cart-shopping"></i> Cart
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="number_badge">
+              
               <span class="visually-hidden">unread messages</span>
             </span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Cart</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -41,6 +42,15 @@
   
 
     <!-- HERO-->
+
+    <div class="container-fluid" id="hero">
+   
+      <div>
+        <h3>NOVITÀ IN LIBRERIA</h3>
+        <p>Non lasciartele sfuggire!</p>
+      </div>
+
+    </div>
 
 
     <!-- LIBRERIA -->

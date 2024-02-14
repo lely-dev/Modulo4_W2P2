@@ -4,7 +4,99 @@
     box-sizing: border-box;
 }
 
+#logo_top{
+    height: 60px;
+    width: auto;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 87px;
+    height: 250px;
+    background-image: url(asset/foto1.png);
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+#hero div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hero div h3{
+    color: white;
+    font-size: 50px;
+    
+}
+
+#hero div p{
+    color: white;
+    font-size: 25px;
+}
+
 #books_container{
-    justify-content: space-evenly;
-    padding: 80px 0;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+
+
+#books_container div img{
+    width: 200px;
+    height: 350px;
+    object-fit: cover
+}
+
+#books_container div h5{
+    width: 200px;
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+}
+
+#books_container div div{
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between
+}
+
+#books_container div div button{
+    padding: 9px;
+    font-size: 10px;
+    background-color: #f3f3f3;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#books_container div div a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    background-color: #f3f3f3;
+    padding: 9px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.i_m_selected{
+    border-style: solid;
+    box-sizing: 2px;
+    border-color: blue;
+}
+
+.badge_hide{
+    display: none;
+}
+
+.cart_item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
 }
